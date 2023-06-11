@@ -7,7 +7,6 @@ for (let controladorFor = 0; controladorFor < listaArgumentos.length; controlado
 }
 
 console.log('---------------execultando WHILE------------------')
-
 let controladorWhile = 0;
 while(controladorWhile < listaArgumentos.length){
     console.log(`Posição ${controladorWhile} Valor lido = ${listaArgumentos[controladorWhile]}`);
@@ -15,7 +14,6 @@ while(controladorWhile < listaArgumentos.length){
 }
 
 console.log('--------------execultando DO WHILE--------------------')
-
 let controladorDoWhile = 0;
 do{
     console.log(`Posição ${controladorDoWhile} Valor lido = ${listaArgumentos[controladorDoWhile]}`);

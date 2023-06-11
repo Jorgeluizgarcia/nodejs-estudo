@@ -1,12 +1,12 @@
 const listaArgumentos = process.argv.slice(2);
 
-console.log('----------------Execultando FOR-------------------')
+console.log('----------------execultando FOR-------------------')
 
 for (let controladorFor = 0; controladorFor < listaArgumentos.length; controladorFor++){
     console.log(`Posição ${controladorFor} valor lido = ${listaArgumentos[controladorFor]}`);
 }
 
-console.log('---------------Execultando WHILE------------------')
+console.log('---------------execultando WHILE------------------')
 
 let controladorWhile = 0;
 while(controladorWhile < listaArgumentos.length){
@@ -14,7 +14,7 @@ while(controladorWhile < listaArgumentos.length){
     controladorWhile++;
 }
 
-console.log('--------------Execultando DO WHILE--------------------')
+console.log('--------------execultando DO WHILE--------------------')
 
 let controladorDoWhile = 0;
 do{
@@ -22,7 +22,7 @@ do{
     controladorDoWhile++;
 }while(controladorDoWhile < listaArgumentos.length)
 
-console.log('---------------Execultando FOR OF------------------')
+console.log('---------------FOR OF------------------')
 let controladorForOf = 0;
 for(const argumento of listaArgumentos){
     console.log(`Posição ${controladorForOf} Valor lido = ${argumento}`);
